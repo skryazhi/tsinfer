@@ -25,6 +25,7 @@ Tsinfer can also be built using the normal ocaml build system, and requires
 install gsl batteries`, provided that gsl is installed on your system.
 ```
 ocamlbuild -pkgs gsl,batteries tsinfer.native
+```
 
 ## Execution
 Execution syntax is simple
