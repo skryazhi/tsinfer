@@ -20,6 +20,11 @@ Compile required modules and the executable:
   make all
 ```
 
+Tsinfer can also be built using the normal ocaml build system, and requires
+`gsl` and `batteries`.  These can be obtained with for example `opam`: `opam
+install gsl batteries`, provided that gsl is installed on your system.
+```
+ocamlbuild -pkgs gsl,batteries tsinfer.native
 
 ## Execution
 Execution syntax is simple
